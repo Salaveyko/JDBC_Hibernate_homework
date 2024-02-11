@@ -1,7 +1,7 @@
 # JDBC intro
-Database initialization files [her](data_init).  
+Database initialization files [here](data_init).  
 You also need to change the values of *URl*, *LOGIN*, and *PASSWORD* 
-[her](src/main/java/com/jdbc/repository/EmployeeRepository.java) to connect to your database.
+[here](src/main/java/com/jdbc/repository/EmployeeRepository.java) to connect to your database.
 #
 In this case, I decided to create a simple QueryBuilder. This is a static nested class and is used to
 dynamically build a database query, which can make the code more elastic in my opinion.  

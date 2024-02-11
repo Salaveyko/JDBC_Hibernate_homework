@@ -1,7 +1,7 @@
 # DAO
-Database initialization files [her](data_init).  
+Database initialization files [here](data_init).  
 You also need to change the values of *URl*, *USER*, and *PASSWORD*
-[her](src/main/java/com/jdbc/factories/DAOFactoryJDBC.java) to connect to your database.
+[here](src/main/java/com/jdbc/factories/DAOFactoryJDBC.java) to connect to your database.
 # Tasks:
 1. Create database:
 - Table 1 contains the names and phone numbers of the company's employees.
