@@ -1,0 +1,1 @@
+create database if not exists hibernate_db;
