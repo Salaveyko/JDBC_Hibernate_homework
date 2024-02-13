@@ -1,0 +1,1535 @@
+2024-02-13 20:28:25,552 DEBUG [IntegratorServiceImpl] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2024-02-13 20:28:25,555 DEBUG [IntegratorServiceImpl] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2024-02-13 20:28:25,557 DEBUG [IntegratorServiceImpl] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2024-02-13 20:28:25,575 INFO [Version] HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-02-13 20:28:25,575 DEBUG [Environment] HHH000206: hibernate.properties not found
+2024-02-13 20:28:25,723 DEBUG [LocalXmlResourceResolver] Interpreting public/system identifier : [null] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2024-02-13 20:28:25,725 DEBUG [LocalXmlResourceResolver] Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+2024-02-13 20:28:25,730 DEBUG [JaxbCfgProcessor] cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2024-02-13 20:28:25,949 DEBUG [Configuration] Building session factory using internal StandardServiceRegistryBuilder
+2024-02-13 20:28:25,956 DEBUG [ServiceBinding] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2024-02-13 20:28:25,956 DEBUG [Configuration] Building session factory using provided StandardServiceRegistry
+2024-02-13 20:28:25,971 DEBUG [RegionFactoryInitiator] Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2024-02-13 20:28:25,972 DEBUG [RegionFactoryInitiator] Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2024-02-13 20:28:25,991 INFO [Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-02-13 20:28:26,091 DEBUG [BasicTypeRegistry] Adding type registration boolean -> org.hibernate.type.BooleanType@1e8823d2
+2024-02-13 20:28:26,092 DEBUG [BasicTypeRegistry] Adding type registration boolean -> org.hibernate.type.BooleanType@1e8823d2
+2024-02-13 20:28:26,092 DEBUG [BasicTypeRegistry] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1e8823d2
+2024-02-13 20:28:26,092 DEBUG [BasicTypeRegistry] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4c432866
+2024-02-13 20:28:26,092 DEBUG [BasicTypeRegistry] Adding type registration true_false -> org.hibernate.type.TrueFalseType@77e2a6e2
+2024-02-13 20:28:26,093 DEBUG [BasicTypeRegistry] Adding type registration yes_no -> org.hibernate.type.YesNoType@64d7b720
+2024-02-13 20:28:26,093 DEBUG [BasicTypeRegistry] Adding type registration byte -> org.hibernate.type.ByteType@29b732a2
+2024-02-13 20:28:26,093 DEBUG [BasicTypeRegistry] Adding type registration byte -> org.hibernate.type.ByteType@29b732a2
+2024-02-13 20:28:26,093 DEBUG [BasicTypeRegistry] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@29b732a2
+2024-02-13 20:28:26,094 DEBUG [BasicTypeRegistry] Adding type registration character -> org.hibernate.type.CharacterType@61019f59
+2024-02-13 20:28:26,094 DEBUG [BasicTypeRegistry] Adding type registration char -> org.hibernate.type.CharacterType@61019f59
+2024-02-13 20:28:26,094 DEBUG [BasicTypeRegistry] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@61019f59
+2024-02-13 20:28:26,095 DEBUG [BasicTypeRegistry] Adding type registration short -> org.hibernate.type.ShortType@3f3ddbd9
+2024-02-13 20:28:26,095 DEBUG [BasicTypeRegistry] Adding type registration short -> org.hibernate.type.ShortType@3f3ddbd9
+2024-02-13 20:28:26,095 DEBUG [BasicTypeRegistry] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3f3ddbd9
+2024-02-13 20:28:26,095 DEBUG [BasicTypeRegistry] Adding type registration integer -> org.hibernate.type.IntegerType@73e132e0
+2024-02-13 20:28:26,095 DEBUG [BasicTypeRegistry] Adding type registration int -> org.hibernate.type.IntegerType@73e132e0
+2024-02-13 20:28:26,096 DEBUG [BasicTypeRegistry] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@73e132e0
+2024-02-13 20:28:26,096 DEBUG [BasicTypeRegistry] Adding type registration long -> org.hibernate.type.LongType@3b0f7d9d
+2024-02-13 20:28:26,096 DEBUG [BasicTypeRegistry] Adding type registration long -> org.hibernate.type.LongType@3b0f7d9d
+2024-02-13 20:28:26,096 DEBUG [BasicTypeRegistry] Adding type registration java.lang.Long -> org.hibernate.type.LongType@3b0f7d9d
+2024-02-13 20:28:26,097 DEBUG [BasicTypeRegistry] Adding type registration float -> org.hibernate.type.FloatType@53cdecf6
+2024-02-13 20:28:26,097 DEBUG [BasicTypeRegistry] Adding type registration float -> org.hibernate.type.FloatType@53cdecf6
+2024-02-13 20:28:26,097 DEBUG [BasicTypeRegistry] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@53cdecf6
+2024-02-13 20:28:26,097 DEBUG [BasicTypeRegistry] Adding type registration double -> org.hibernate.type.DoubleType@5b43e173
+2024-02-13 20:28:26,097 DEBUG [BasicTypeRegistry] Adding type registration double -> org.hibernate.type.DoubleType@5b43e173
+2024-02-13 20:28:26,098 DEBUG [BasicTypeRegistry] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@5b43e173
+2024-02-13 20:28:26,098 DEBUG [BasicTypeRegistry] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@30f4b1a6
+2024-02-13 20:28:26,098 DEBUG [BasicTypeRegistry] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@30f4b1a6
+2024-02-13 20:28:26,099 DEBUG [BasicTypeRegistry] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@669d2b1b
+2024-02-13 20:28:26,099 DEBUG [BasicTypeRegistry] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@669d2b1b
+2024-02-13 20:28:26,099 DEBUG [BasicTypeRegistry] Adding type registration string -> org.hibernate.type.StringType@4e406694
+2024-02-13 20:28:26,099 DEBUG [BasicTypeRegistry] Adding type registration java.lang.String -> org.hibernate.type.StringType@4e406694
+2024-02-13 20:28:26,099 DEBUG [BasicTypeRegistry] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2b50150
+2024-02-13 20:28:26,100 DEBUG [BasicTypeRegistry] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@6b530eb9
+2024-02-13 20:28:26,100 DEBUG [BasicTypeRegistry] Adding type registration url -> org.hibernate.type.UrlType@2c0f7678
+2024-02-13 20:28:26,100 DEBUG [BasicTypeRegistry] Adding type registration java.net.URL -> org.hibernate.type.UrlType@2c0f7678
+2024-02-13 20:28:26,100 DEBUG [BasicTypeRegistry] Adding type registration Duration -> org.hibernate.type.DurationType@4163f1cd
+2024-02-13 20:28:26,100 DEBUG [BasicTypeRegistry] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@4163f1cd
+2024-02-13 20:28:26,103 DEBUG [BasicTypeRegistry] Adding type registration Instant -> org.hibernate.type.InstantType@710b30ef
+2024-02-13 20:28:26,103 DEBUG [BasicTypeRegistry] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@710b30ef
+2024-02-13 20:28:26,103 DEBUG [BasicTypeRegistry] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@64711bf2
+2024-02-13 20:28:26,103 DEBUG [BasicTypeRegistry] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@64711bf2
+2024-02-13 20:28:26,103 DEBUG [BasicTypeRegistry] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@df4b72
+2024-02-13 20:28:26,103 DEBUG [BasicTypeRegistry] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@df4b72
+2024-02-13 20:28:26,103 DEBUG [BasicTypeRegistry] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@74cf8b28
+2024-02-13 20:28:26,106 DEBUG [BasicTypeRegistry] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@74cf8b28
+2024-02-13 20:28:26,107 DEBUG [BasicTypeRegistry] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@584f5497
+2024-02-13 20:28:26,107 DEBUG [BasicTypeRegistry] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@584f5497
+2024-02-13 20:28:26,108 DEBUG [BasicTypeRegistry] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@4943defe
+2024-02-13 20:28:26,108 DEBUG [BasicTypeRegistry] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@4943defe
+2024-02-13 20:28:26,109 DEBUG [BasicTypeRegistry] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2f19f2aa
+2024-02-13 20:28:26,109 DEBUG [BasicTypeRegistry] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2f19f2aa
+2024-02-13 20:28:26,110 DEBUG [BasicTypeRegistry] Adding type registration date -> org.hibernate.type.DateType@535b8c24
+2024-02-13 20:28:26,110 DEBUG [BasicTypeRegistry] Adding type registration java.sql.Date -> org.hibernate.type.DateType@535b8c24
+2024-02-13 20:28:26,111 DEBUG [BasicTypeRegistry] Adding type registration time -> org.hibernate.type.TimeType@20921b9b
+2024-02-13 20:28:26,111 DEBUG [BasicTypeRegistry] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@20921b9b
+2024-02-13 20:28:26,112 DEBUG [BasicTypeRegistry] Adding type registration timestamp -> org.hibernate.type.TimestampType@456abb66
+2024-02-13 20:28:26,112 DEBUG [BasicTypeRegistry] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@456abb66
+2024-02-13 20:28:26,112 DEBUG [BasicTypeRegistry] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@456abb66
+2024-02-13 20:28:26,113 DEBUG [BasicTypeRegistry] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@31be6b49
+2024-02-13 20:28:26,113 DEBUG [BasicTypeRegistry] Adding type registration calendar -> org.hibernate.type.CalendarType@325f7fa9
+2024-02-13 20:28:26,113 DEBUG [BasicTypeRegistry] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@325f7fa9
+2024-02-13 20:28:26,113 DEBUG [BasicTypeRegistry] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@325f7fa9
+2024-02-13 20:28:26,114 DEBUG [BasicTypeRegistry] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3af9aa66
+2024-02-13 20:28:26,115 DEBUG [BasicTypeRegistry] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@64d43929
+2024-02-13 20:28:26,115 DEBUG [BasicTypeRegistry] Adding type registration locale -> org.hibernate.type.LocaleType@1e7f2e0f
+2024-02-13 20:28:26,116 DEBUG [BasicTypeRegistry] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1e7f2e0f
+2024-02-13 20:28:26,116 DEBUG [BasicTypeRegistry] Adding type registration currency -> org.hibernate.type.CurrencyType@2516fc68
+2024-02-13 20:28:26,116 DEBUG [BasicTypeRegistry] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@2516fc68
+2024-02-13 20:28:26,116 DEBUG [BasicTypeRegistry] Adding type registration timezone -> org.hibernate.type.TimeZoneType@347bdeef
+2024-02-13 20:28:26,116 DEBUG [BasicTypeRegistry] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@347bdeef
+2024-02-13 20:28:26,118 DEBUG [BasicTypeRegistry] Adding type registration class -> org.hibernate.type.ClassType@49298ce7
+2024-02-13 20:28:26,118 DEBUG [BasicTypeRegistry] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@49298ce7
+2024-02-13 20:28:26,119 DEBUG [BasicTypeRegistry] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@4a325eb9
+2024-02-13 20:28:26,119 DEBUG [BasicTypeRegistry] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@4a325eb9
+2024-02-13 20:28:26,119 DEBUG [BasicTypeRegistry] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@194152cf
+2024-02-13 20:28:26,120 DEBUG [BasicTypeRegistry] Adding type registration binary -> org.hibernate.type.BinaryType@1654a892
+2024-02-13 20:28:26,120 DEBUG [BasicTypeRegistry] Adding type registration byte[] -> org.hibernate.type.BinaryType@1654a892
+2024-02-13 20:28:26,120 DEBUG [BasicTypeRegistry] Adding type registration [B -> org.hibernate.type.BinaryType@1654a892
+2024-02-13 20:28:26,121 DEBUG [BasicTypeRegistry] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5e8a459
+2024-02-13 20:28:26,121 DEBUG [BasicTypeRegistry] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5e8a459
+2024-02-13 20:28:26,121 DEBUG [BasicTypeRegistry] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5e8a459
+2024-02-13 20:28:26,122 DEBUG [BasicTypeRegistry] Adding type registration row_version -> org.hibernate.type.RowVersionType@6f95cd51
+2024-02-13 20:28:26,122 DEBUG [BasicTypeRegistry] Adding type registration image -> org.hibernate.type.ImageType@2c383e33
+2024-02-13 20:28:26,124 DEBUG [BasicTypeRegistry] Adding type registration characters -> org.hibernate.type.CharArrayType@7c0da600
+2024-02-13 20:28:26,124 DEBUG [BasicTypeRegistry] Adding type registration char[] -> org.hibernate.type.CharArrayType@7c0da600
+2024-02-13 20:28:26,125 DEBUG [BasicTypeRegistry] Adding type registration [C -> org.hibernate.type.CharArrayType@7c0da600
+2024-02-13 20:28:26,126 DEBUG [BasicTypeRegistry] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@e044b4a
+2024-02-13 20:28:26,126 DEBUG [BasicTypeRegistry] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@e044b4a
+2024-02-13 20:28:26,126 DEBUG [BasicTypeRegistry] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@e044b4a
+2024-02-13 20:28:26,126 DEBUG [BasicTypeRegistry] Adding type registration text -> org.hibernate.type.TextType@16943e88
+2024-02-13 20:28:26,127 DEBUG [BasicTypeRegistry] Adding type registration ntext -> org.hibernate.type.NTextType@3961a41a
+2024-02-13 20:28:26,130 DEBUG [BasicTypeRegistry] Adding type registration blob -> org.hibernate.type.BlobType@13e9f2e2
+2024-02-13 20:28:26,130 DEBUG [BasicTypeRegistry] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@13e9f2e2
+2024-02-13 20:28:26,131 DEBUG [BasicTypeRegistry] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3c4bc9fc
+2024-02-13 20:28:26,133 DEBUG [BasicTypeRegistry] Adding type registration clob -> org.hibernate.type.ClobType@430fa4ef
+2024-02-13 20:28:26,133 DEBUG [BasicTypeRegistry] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@430fa4ef
+2024-02-13 20:28:26,134 DEBUG [BasicTypeRegistry] Adding type registration nclob -> org.hibernate.type.NClobType@1358b28e
+2024-02-13 20:28:26,134 DEBUG [BasicTypeRegistry] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1358b28e
+2024-02-13 20:28:26,134 DEBUG [BasicTypeRegistry] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@2bfeb1ef
+2024-02-13 20:28:26,135 DEBUG [BasicTypeRegistry] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@261d8190
+2024-02-13 20:28:26,136 DEBUG [BasicTypeRegistry] Adding type registration serializable -> org.hibernate.type.SerializableType@304b9f1a
+2024-02-13 20:28:26,138 DEBUG [BasicTypeRegistry] Adding type registration object -> org.hibernate.type.ObjectType@4925f4f5
+2024-02-13 20:28:26,138 DEBUG [BasicTypeRegistry] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4925f4f5
+2024-02-13 20:28:26,138 DEBUG [BasicTypeRegistry] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5f2afe62
+2024-02-13 20:28:26,138 DEBUG [BasicTypeRegistry] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@c96a4ea
+2024-02-13 20:28:26,138 DEBUG [BasicTypeRegistry] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@28782602
+2024-02-13 20:28:26,138 DEBUG [BasicTypeRegistry] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@60c16548
+2024-02-13 20:28:26,139 DEBUG [BasicTypeRegistry] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@68105edc
+2024-02-13 20:28:26,139 DEBUG [BasicTypeRegistry] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@511816c0
+2024-02-13 20:28:26,140 DEBUG [BasicTypeRegistry] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@38b972d7
+2024-02-13 20:28:26,140 DEBUG [BasicTypeRegistry] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@5339bbad
+2024-02-13 20:28:26,157 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2024-02-13 20:28:26,158 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2024-02-13 20:28:26,158 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2024-02-13 20:28:26,159 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2024-02-13 20:28:26,159 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2024-02-13 20:28:26,159 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2024-02-13 20:28:26,159 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2024-02-13 20:28:26,160 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2024-02-13 20:28:26,160 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2024-02-13 20:28:26,161 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2024-02-13 20:28:26,161 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2024-02-13 20:28:26,161 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2024-02-13 20:28:26,161 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2024-02-13 20:28:26,162 DEBUG [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2024-02-13 20:28:26,168 WARN [pooling] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-02-13 20:28:26,171 INFO [pooling] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernate_db?serverTimezone=UTC]
+2024-02-13 20:28:26,172 INFO [pooling] HHH10001001: Connection properties: {password=root, user=root}
+2024-02-13 20:28:26,172 INFO [pooling] HHH10001003: Autocommit mode: false
+2024-02-13 20:28:26,174 DEBUG [DriverManagerConnectionProviderImpl] Initializing Connection pool with 1 Connections
+2024-02-13 20:28:26,175 INFO [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 1 (min=1)
+2024-02-13 20:28:26,546 DEBUG [JdbcEnvironmentInitiator] Database ->
+       name : MySQL
+    version : 8.0.32
+      major : 8
+      minor : 0
+2024-02-13 20:28:26,546 DEBUG [JdbcEnvironmentInitiator] Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+      major : 8
+      minor : 0
+2024-02-13 20:28:26,547 DEBUG [JdbcEnvironmentInitiator] JDBC version : 4.2
+2024-02-13 20:28:26,556 INFO [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2024-02-13 20:28:26,570 DEBUG [IdentifierHelperBuilder] JDBC driver metadata reported database stores quoted identifiers in more than one case
+2024-02-13 20:28:26,571 DEBUG [IdentifierHelperBuilder] IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2024-02-13 20:28:26,588 DEBUG [TypeConfiguration$Scope] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4cb40e3b] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@41b1f51e]
+2024-02-13 20:28:26,619 DEBUG [Namespace] Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2024-02-13 20:28:26,632 DEBUG [AnnotationBinder] Binding entity from annotated class: com.hibernate.entity.Author
+2024-02-13 20:28:26,647 DEBUG [Ejb3Column] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2024-02-13 20:28:26,648 DEBUG [EntityBinder] Import with entity name Author
+2024-02-13 20:28:26,653 DEBUG [EntityBinder] Bind entity com.hibernate.entity.Author on table authors
+2024-02-13 20:28:26,671 DEBUG [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(authors), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2024-02-13 20:28:26,674 DEBUG [ClassLoaderAccessImpl] Not known whether passed class name [com.hibernate.entity.Author] is safe
+2024-02-13 20:28:26,674 DEBUG [ClassLoaderAccessImpl] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.hibernate.entity.Author
+2024-02-13 20:28:26,674 DEBUG [PropertyBinder] MetadataSourceProcessor property id with lazy=false
+2024-02-13 20:28:26,675 DEBUG [AbstractPropertyHolder] Attempting to locate auto-apply AttributeConverter for property [com.hibernate.entity.Author:id]
+2024-02-13 20:28:26,677 DEBUG [SimpleValueBinder] building SimpleValue for id
+2024-02-13 20:28:26,678 DEBUG [PropertyBinder] Building property id
+2024-02-13 20:28:26,680 DEBUG [BinderHelper] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2024-02-13 20:28:26,681 DEBUG [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(authors), mappingColumn=email, insertable=true, updatable=true, unique=false}
+2024-02-13 20:28:26,681 DEBUG [PropertyBinder] MetadataSourceProcessor property email with lazy=false
+2024-02-13 20:28:26,681 DEBUG [AbstractPropertyHolder] Attempting to locate auto-apply AttributeConverter for property [com.hibernate.entity.Author:email]
+2024-02-13 20:28:26,681 DEBUG [SimpleValueBinder] building SimpleValue for email
+2024-02-13 20:28:26,681 DEBUG [PropertyBinder] Building property email
+2024-02-13 20:28:26,681 DEBUG [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(authors), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2024-02-13 20:28:26,681 DEBUG [PropertyBinder] MetadataSourceProcessor property name with lazy=false
+2024-02-13 20:28:26,681 DEBUG [AbstractPropertyHolder] Attempting to locate auto-apply AttributeConverter for property [com.hibernate.entity.Author:name]
+2024-02-13 20:28:26,681 DEBUG [SimpleValueBinder] building SimpleValue for name
+2024-02-13 20:28:26,682 DEBUG [PropertyBinder] Building property name
+2024-02-13 20:28:26,682 DEBUG [Ejb3Column] Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='author'}
+2024-02-13 20:28:26,682 DEBUG [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(authors), mappingColumn=posts, insertable=true, updatable=true, unique=false}
+2024-02-13 20:28:26,684 DEBUG [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(authors), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2024-02-13 20:28:26,691 DEBUG [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(authors), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2024-02-13 20:28:26,692 DEBUG [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(authors), mappingColumn=posts_KEY, insertable=true, updatable=true, unique=false}
+2024-02-13 20:28:26,693 DEBUG [Ejb3Column] Binding column: Ejb3JoinColumn{logicalColumnName='posts_KEY', referencedColumn='null', mappedBy='null'}
+2024-02-13 20:28:26,694 DEBUG [Ejb3Column] Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='author'}
+2024-02-13 20:28:26,694 DEBUG [Ejb3Column] Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='author'}
+2024-02-13 20:28:26,694 DEBUG [CollectionBinder] Collection role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:26,696 DEBUG [PropertyBinder] Building property posts
+2024-02-13 20:28:26,703 DEBUG [AnnotationBinder] Binding entity from annotated class: com.hibernate.entity.Post
+2024-02-13 20:28:26,703 DEBUG [Ejb3Column] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2024-02-13 20:28:26,703 DEBUG [EntityBinder] Import with entity name Post
+2024-02-13 20:28:26,703 DEBUG [EntityBinder] Bind entity com.hibernate.entity.Post on table posts
+2024-02-13 20:28:26,706 DEBUG [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(posts), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2024-02-13 20:28:26,706 DEBUG [ClassLoaderAccessImpl] Not known whether passed class name [com.hibernate.entity.Post] is safe
+2024-02-13 20:28:26,706 DEBUG [ClassLoaderAccessImpl] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.hibernate.entity.Post
+2024-02-13 20:28:26,706 DEBUG [PropertyBinder] MetadataSourceProcessor property id with lazy=false
+2024-02-13 20:28:26,706 DEBUG [AbstractPropertyHolder] Attempting to locate auto-apply AttributeConverter for property [com.hibernate.entity.Post:id]
+2024-02-13 20:28:26,708 DEBUG [SimpleValueBinder] building SimpleValue for id
+2024-02-13 20:28:26,708 DEBUG [PropertyBinder] Building property id
+2024-02-13 20:28:26,708 DEBUG [BinderHelper] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2024-02-13 20:28:26,708 DEBUG [Ejb3Column] Binding column: Ejb3JoinColumn{logicalColumnName='author_id', referencedColumn='', mappedBy=''}
+2024-02-13 20:28:26,708 DEBUG [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(posts), mappingColumn=author, insertable=true, updatable=true, unique=false}
+2024-02-13 20:28:26,709 DEBUG [PropertyBinder] Building property author
+2024-02-13 20:28:26,709 DEBUG [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(posts), mappingColumn=content, insertable=true, updatable=true, unique=false}
+2024-02-13 20:28:26,709 DEBUG [PropertyBinder] MetadataSourceProcessor property content with lazy=false
+2024-02-13 20:28:26,709 DEBUG [AbstractPropertyHolder] Attempting to locate auto-apply AttributeConverter for property [com.hibernate.entity.Post:content]
+2024-02-13 20:28:26,710 DEBUG [SimpleValueBinder] building SimpleValue for content
+2024-02-13 20:28:26,710 DEBUG [PropertyBinder] Building property content
+2024-02-13 20:28:26,710 DEBUG [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(posts), mappingColumn=updated, insertable=true, updatable=true, unique=false}
+2024-02-13 20:28:26,710 DEBUG [PropertyBinder] MetadataSourceProcessor property updated with lazy=false
+2024-02-13 20:28:26,710 DEBUG [AbstractPropertyHolder] Attempting to locate auto-apply AttributeConverter for property [com.hibernate.entity.Post:updated]
+2024-02-13 20:28:26,710 DEBUG [SimpleValueBinder] building SimpleValue for updated
+2024-02-13 20:28:26,710 DEBUG [PropertyBinder] Building property updated
+2024-02-13 20:28:26,711 DEBUG [SimpleValueBinder] Starting fillSimpleValue for id
+2024-02-13 20:28:26,711 DEBUG [SimpleValueBinder] Starting fillSimpleValue for email
+2024-02-13 20:28:26,711 DEBUG [SimpleValueBinder] Starting fillSimpleValue for name
+2024-02-13 20:28:26,711 DEBUG [SimpleValueBinder] Starting fillSimpleValue for id
+2024-02-13 20:28:26,711 DEBUG [SimpleValueBinder] Starting fillSimpleValue for content
+2024-02-13 20:28:26,711 DEBUG [SimpleValueBinder] Starting fillSimpleValue for updated
+2024-02-13 20:28:26,712 DEBUG [PrimaryKey] Forcing column [id] to be non-null as it is part of the primary key for table [authors]
+2024-02-13 20:28:26,712 DEBUG [PrimaryKey] Forcing column [id] to be non-null as it is part of the primary key for table [posts]
+2024-02-13 20:28:26,712 DEBUG [CollectionSecondPass] Second pass for collection: com.hibernate.entity.Author.posts
+2024-02-13 20:28:26,712 DEBUG [CollectionBinder] Binding a OneToMany: com.hibernate.entity.Author.posts through a foreign key
+2024-02-13 20:28:26,712 DEBUG [CollectionBinder] Mapping collection: com.hibernate.entity.Author.posts -> posts
+2024-02-13 20:28:26,712 DEBUG [TableBinder] Retrieving property com.hibernate.entity.Post.author
+2024-02-13 20:28:26,712 DEBUG [CollectionSecondPass] Mapped collection key: author_id, one-to-many: com.hibernate.entity.Post
+2024-02-13 20:28:26,712 DEBUG [InFlightMetadataCollectorImpl] Resolving reference to class: com.hibernate.entity.Author
+2024-02-13 20:28:26,718 DEBUG [InFlightMetadataCollectorImpl] Resolving reference to class: com.hibernate.entity.Author
+2024-02-13 20:28:26,745 DEBUG [SessionFactoryImpl] Building session factory
+2024-02-13 20:28:26,746 DEBUG [Settings] SessionFactory name : null
+2024-02-13 20:28:26,746 DEBUG [Settings] Automatic flush during beforeCompletion(): enabled
+2024-02-13 20:28:26,746 DEBUG [Settings] Automatic session close at end of transaction: disabled
+2024-02-13 20:28:26,746 DEBUG [Settings] Statistics: disabled
+2024-02-13 20:28:26,746 DEBUG [Settings] Deleted entity synthetic identifier rollback: disabled
+2024-02-13 20:28:26,747 DEBUG [Settings] Default entity-mode: pojo
+2024-02-13 20:28:26,747 DEBUG [Settings] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2024-02-13 20:28:26,747 DEBUG [Settings] Allow initialization of lazy state outside session : disabled
+2024-02-13 20:28:26,747 DEBUG [Settings] Using BatchFetchStyle : LEGACY
+2024-02-13 20:28:26,747 DEBUG [Settings] Default batch fetch size: -1
+2024-02-13 20:28:26,747 DEBUG [Settings] Maximum outer join fetch depth: 2
+2024-02-13 20:28:26,747 DEBUG [Settings] Default null ordering: NONE
+2024-02-13 20:28:26,747 DEBUG [Settings] Order SQL updates by primary key: disabled
+2024-02-13 20:28:26,747 DEBUG [Settings] Order SQL inserts for batching: disabled
+2024-02-13 20:28:26,747 DEBUG [Settings] multi-tenancy strategy : NONE
+2024-02-13 20:28:26,747 DEBUG [Settings] JTA Track by Thread: enabled
+2024-02-13 20:28:26,747 DEBUG [Settings] Query language substitutions: {}
+2024-02-13 20:28:26,747 DEBUG [Settings] Named query checking : enabled
+2024-02-13 20:28:26,747 DEBUG [Settings] Second-level cache: disabled
+2024-02-13 20:28:26,747 DEBUG [Settings] Second-level query cache: disabled
+2024-02-13 20:28:26,747 DEBUG [Settings] Second-level query cache factory: null
+2024-02-13 20:28:26,747 DEBUG [Settings] Second-level cache region prefix: null
+2024-02-13 20:28:26,747 DEBUG [Settings] Optimize second-level cache for minimal puts: disabled
+2024-02-13 20:28:26,747 DEBUG [Settings] Structured second-level cache entries: disabled
+2024-02-13 20:28:26,747 DEBUG [Settings] Second-level cache direct-reference entries: disabled
+2024-02-13 20:28:26,747 DEBUG [Settings] Automatic eviction of collection cache: disabled
+2024-02-13 20:28:26,747 DEBUG [Settings] JDBC batch size: 15
+2024-02-13 20:28:26,748 DEBUG [Settings] JDBC batch updates for versioned data: enabled
+2024-02-13 20:28:26,748 DEBUG [Settings] Scrollable result sets: enabled
+2024-02-13 20:28:26,748 DEBUG [Settings] Wrap result sets: disabled
+2024-02-13 20:28:26,748 DEBUG [Settings] JDBC3 getGeneratedKeys(): enabled
+2024-02-13 20:28:26,748 DEBUG [Settings] JDBC result set fetch size: null
+2024-02-13 20:28:26,748 DEBUG [Settings] Connection release mode: AFTER_TRANSACTION
+2024-02-13 20:28:26,748 DEBUG [Settings] Generate SQL with comments: disabled
+2024-02-13 20:28:26,748 DEBUG [Settings] JPA compliance - query : disabled
+2024-02-13 20:28:26,749 DEBUG [Settings] JPA compliance - closed-handling : disabled
+2024-02-13 20:28:26,749 DEBUG [Settings] JPA compliance - lists : disabled
+2024-02-13 20:28:26,749 DEBUG [Settings] JPA compliance - transactions : disabled
+2024-02-13 20:28:26,795 DEBUG [SessionFactoryServiceRegistryImpl] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2024-02-13 20:28:26,797 DEBUG [SessionFactoryServiceRegistryImpl] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2024-02-13 20:28:26,808 DEBUG [SessionFactoryImpl] Session factory constructed with filter configurations : {}
+2024-02-13 20:28:26,808 DEBUG [SessionFactoryImpl] Instantiating session factory with properties: {java.specification.version=17, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1250, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.class.path=D:\itvdn\HomworkRepositories\JDBC_Hibernate\005_Hibernate\target\classes;C:\Users\dell\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\dell\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\dell\.m2\repository\org\hibernate\hibernate-core\5.6.10.Final\hibernate-core-5.6.10.Final.jar;C:\Users\dell\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\dell\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\dell\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\dell\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\dell\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\dell\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\dell\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\dell\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\dell\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\dell\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\dell\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\dell\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\dell\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\dell\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, hbm2ddl.auto=update, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Warsaw, java.vm.specification.version=17, os.name=Windows 10, sun.java.launcher=SUN_STANDARD, user.country=UA, sun.boot.library.path=C:\Program Files\Java\jdk-17\bin, sun.java.command=com.hibernate.Main, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\dell, user.language=uk, java.specification.vendor=Oracle Corporation, java.version.date=2023-01-17, java.home=C:\Program Files\Java\jdk-17, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.6+9-LTS-190, user.name=dell, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/hibernate_db?serverTimezone=UTC, connection.pool_size=1, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, show_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\dell\AppData\Local\Temp\, java.version=17.0.6, user.dir=D:\itvdn\HomworkRepositories\JDBC_Hibernate\005_Hibernate, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@4b31a708, native.encoding=Cp1250, java.library.path=C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-8u362-b09\bin;d:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, sharing, java.vm.version=17.0.6+9-LTS-190, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.connection.pool_size=1, java.class.version=61.0}
+2024-02-13 20:28:26,821 DEBUG [JaccIntegrator] Skipping JACC integration as it was not enabled
+2024-02-13 20:28:26,822 DEBUG [SessionFactoryImpl] Instantiated session factory
+2024-02-13 20:28:26,822 DEBUG [TypeConfiguration$Scope] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4cb40e3b] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@f1f7db2]
+2024-02-13 20:28:26,894 DEBUG [ClassLoaderAccessImpl] Not known whether passed class name [com.hibernate.entity.Author] is safe
+2024-02-13 20:28:26,894 DEBUG [ClassLoaderAccessImpl] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.hibernate.entity.Author
+2024-02-13 20:28:27,033 DEBUG [interceptor] To-one property `com.hibernate.entity.Post#author` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2024-02-13 20:28:27,033 DEBUG [interceptor] To-one property `com.hibernate.entity.Post#author` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2024-02-13 20:28:27,035 DEBUG [ClassLoaderAccessImpl] Not known whether passed class name [com.hibernate.entity.Post] is safe
+2024-02-13 20:28:27,035 DEBUG [ClassLoaderAccessImpl] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.hibernate.entity.Post
+2024-02-13 20:28:27,046 DEBUG [interceptor] To-one property `com.hibernate.entity.Post#author` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2024-02-13 20:28:27,046 DEBUG [interceptor] To-one property `com.hibernate.entity.Post#author` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2024-02-13 20:28:27,060 DEBUG [AbstractCollectionPersister] Static SQL for collection: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,060 DEBUG [AbstractCollectionPersister]  Row insert: update posts set author_id=? where id=?
+2024-02-13 20:28:27,060 DEBUG [AbstractCollectionPersister]  Row update: update posts set  where id=?
+2024-02-13 20:28:27,060 DEBUG [AbstractCollectionPersister]  Row delete: update posts set author_id=null where author_id=? and id=?
+2024-02-13 20:28:27,060 DEBUG [AbstractCollectionPersister]  One-shot delete: update posts set author_id=null where author_id=?
+2024-02-13 20:28:27,066 DEBUG [AbstractEntityPersister] Static SQL for entity: com.hibernate.entity.Author
+2024-02-13 20:28:27,066 DEBUG [AbstractEntityPersister]  Version select: select id from authors where id =?
+2024-02-13 20:28:27,066 DEBUG [AbstractEntityPersister]  Snapshot select: select author_.id, author_.email as email2_0_, author_.name as name3_0_ from authors author_ where author_.id=?
+2024-02-13 20:28:27,066 DEBUG [AbstractEntityPersister]  Insert 0: insert into authors (email, name, id) values (?, ?, ?)
+2024-02-13 20:28:27,066 DEBUG [AbstractEntityPersister]  Update 0: update authors set email=?, name=? where id=?
+2024-02-13 20:28:27,066 DEBUG [AbstractEntityPersister]  Delete 0: delete from authors where id=?
+2024-02-13 20:28:27,066 DEBUG [AbstractEntityPersister]  Identity insert: insert into authors (email, name) values (?, ?)
+2024-02-13 20:28:27,082 DEBUG [QuerySpacesImpl] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2ac519dc]
+2024-02-13 20:28:27,082 DEBUG [MetamodelGraphWalker] Visiting attribute path : email
+2024-02-13 20:28:27,082 DEBUG [MetamodelGraphWalker] Visiting attribute path : name
+2024-02-13 20:28:27,082 DEBUG [MetamodelGraphWalker] Visiting attribute path : posts
+2024-02-13 20:28:27,087 DEBUG [QuerySpacesImpl] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7e8279e5]
+2024-02-13 20:28:27,087 DEBUG [QuerySpacesImpl] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4e22368c]
+2024-02-13 20:28:27,087 DEBUG [MetamodelGraphWalker] Visiting attribute path : posts.author
+2024-02-13 20:28:27,090 DEBUG [MetamodelGraphWalker] Property path deemed to be circular : posts.author
+2024-02-13 20:28:27,090 DEBUG [MetamodelGraphWalker] Visiting attribute path : posts.content
+2024-02-13 20:28:27,090 DEBUG [MetamodelGraphWalker] Visiting attribute path : posts.updated
+2024-02-13 20:28:27,090 DEBUG [FetchStyleLoadPlanBuildingAssociationVisitationStrategy] Building LoadPlan...
+2024-02-13 20:28:27,097 DEBUG [LoadQueryJoinAndFetchProcessor] processing queryspace <gen:0>
+2024-02-13 20:28:27,097 DEBUG [LoadPlanTreePrinter] LoadPlan(entity=com.hibernate.entity.Author)
+    - Returns
+       - EntityReturnImpl(entity=com.hibernate.entity.Author, querySpaceUid=<gen:0>, path=com.hibernate.entity.Author)
+          - CollectionAttributeFetchImpl(collection=com.hibernate.entity.Author.posts, querySpaceUid=<gen:1>, path=com.hibernate.entity.Author.posts)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.hibernate.entity.Post, querySpaceUid=<gen:2>, path=com.hibernate.entity.Author.posts.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.hibernate.entity.Author)
+          - SQL table alias mapping - author0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(posts)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.hibernate.entity.Author.posts)
+                - SQL table alias mapping - posts1_
+                - alias suffix - 1_
+                - suffixed key columns - {author_i4_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.hibernate.entity.Post)
+                      - SQL table alias mapping - posts1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+
+2024-02-13 20:28:27,102 DEBUG [EntityLoader] Static select for entity com.hibernate.entity.Author [NONE]: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.name as name3_0_0_, posts1_.author_id as author_i4_1_1_, posts1_.id as id1_1_1_, posts1_.id as id1_1_2_, posts1_.author_id as author_i4_1_2_, posts1_.content as content2_1_2_, posts1_.updated as updated3_1_2_ from authors author0_ left outer join posts posts1_ on author0_.id=posts1_.author_id where author0_.id=?
+2024-02-13 20:28:27,102 DEBUG [AbstractEntityPersister] Static SQL for entity: com.hibernate.entity.Post
+2024-02-13 20:28:27,102 DEBUG [AbstractEntityPersister]  Version select: select id from posts where id =?
+2024-02-13 20:28:27,102 DEBUG [AbstractEntityPersister]  Snapshot select: select post_.id, post_.author_id as author_i4_1_, post_.content as content2_1_, post_.updated as updated3_1_ from posts post_ where post_.id=?
+2024-02-13 20:28:27,102 DEBUG [AbstractEntityPersister]  Insert 0: insert into posts (author_id, content, updated, id) values (?, ?, ?, ?)
+2024-02-13 20:28:27,102 DEBUG [AbstractEntityPersister]  Update 0: update posts set author_id=?, content=?, updated=? where id=?
+2024-02-13 20:28:27,102 DEBUG [AbstractEntityPersister]  Delete 0: delete from posts where id=?
+2024-02-13 20:28:27,102 DEBUG [AbstractEntityPersister]  Identity insert: insert into posts (author_id, content, updated) values (?, ?, ?)
+2024-02-13 20:28:27,102 DEBUG [QuerySpacesImpl] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2bb41f5c]
+2024-02-13 20:28:27,102 DEBUG [MetamodelGraphWalker] Visiting attribute path : author
+2024-02-13 20:28:27,102 DEBUG [QuerySpacesImpl] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7da635c0]
+2024-02-13 20:28:27,102 DEBUG [MetamodelGraphWalker] Visiting attribute path : author.email
+2024-02-13 20:28:27,102 DEBUG [MetamodelGraphWalker] Visiting attribute path : author.name
+2024-02-13 20:28:27,102 DEBUG [MetamodelGraphWalker] Visiting attribute path : author.posts
+2024-02-13 20:28:27,103 DEBUG [MetamodelGraphWalker] Property path deemed to be circular : author.posts
+2024-02-13 20:28:27,103 DEBUG [MetamodelGraphWalker] Visiting attribute path : content
+2024-02-13 20:28:27,103 DEBUG [MetamodelGraphWalker] Visiting attribute path : updated
+2024-02-13 20:28:27,103 DEBUG [FetchStyleLoadPlanBuildingAssociationVisitationStrategy] Building LoadPlan...
+2024-02-13 20:28:27,103 DEBUG [LoadQueryJoinAndFetchProcessor] processing queryspace <gen:0>
+2024-02-13 20:28:27,103 DEBUG [LoadPlanTreePrinter] LoadPlan(entity=com.hibernate.entity.Post)
+    - Returns
+       - EntityReturnImpl(entity=com.hibernate.entity.Post, querySpaceUid=<gen:0>, path=com.hibernate.entity.Post)
+          - EntityAttributeFetchImpl(entity=com.hibernate.entity.Author, querySpaceUid=<gen:1>, path=com.hibernate.entity.Post.author)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.hibernate.entity.Post)
+          - SQL table alias mapping - post0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(author)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.hibernate.entity.Author)
+                - SQL table alias mapping - author1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+
+2024-02-13 20:28:27,103 DEBUG [EntityLoader] Static select for entity com.hibernate.entity.Post [NONE]: select post0_.id as id1_1_0_, post0_.author_id as author_i4_1_0_, post0_.content as content2_1_0_, post0_.updated as updated3_1_0_, author1_.id as id1_0_1_, author1_.email as email2_0_1_, author1_.name as name3_0_1_ from posts post0_ left outer join authors author1_ on post0_.author_id=author1_.id where post0_.id=?
+2024-02-13 20:28:27,105 DEBUG [QuerySpacesImpl] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@27dc627a]
+2024-02-13 20:28:27,105 DEBUG [QuerySpacesImpl] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@570ba13]
+2024-02-13 20:28:27,105 DEBUG [MetamodelGraphWalker] Visiting attribute path : author
+2024-02-13 20:28:27,105 DEBUG [MetamodelGraphWalker] Property path deemed to be circular : author
+2024-02-13 20:28:27,105 DEBUG [MetamodelGraphWalker] Visiting attribute path : content
+2024-02-13 20:28:27,107 DEBUG [MetamodelGraphWalker] Visiting attribute path : updated
+2024-02-13 20:28:27,107 DEBUG [FetchStyleLoadPlanBuildingAssociationVisitationStrategy] Building LoadPlan...
+2024-02-13 20:28:27,108 DEBUG [LoadQueryJoinAndFetchProcessor] processing queryspace <gen:0>
+2024-02-13 20:28:27,108 DEBUG [LoadPlanTreePrinter] LoadPlan(collection=com.hibernate.entity.Author.posts)
+    - Returns
+       - CollectionReturnImpl(collection=com.hibernate.entity.Author.posts, querySpaceUid=<gen:0>, path=[com.hibernate.entity.Author.posts])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.hibernate.entity.Post, querySpaceUid=<gen:1>, path=[com.hibernate.entity.Author.posts].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.hibernate.entity.Author.posts)
+          - SQL table alias mapping - posts0_
+          - alias suffix - 0_
+          - suffixed key columns - {author_i4_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.hibernate.entity.Post)
+                - SQL table alias mapping - posts0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+2024-02-13 20:28:27,108 DEBUG [CollectionLoader] Static select for collection com.hibernate.entity.Author.posts: select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,136 INFO [access] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59096b66] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-02-13 20:28:27,172 DEBUG [Table] No alter strings for table : authors
+2024-02-13 20:28:27,173 DEBUG [Table] No alter strings for table : posts
+2024-02-13 20:28:27,180 DEBUG [SQL] alter table posts add constraint FK25al4a7msjnskhqkujkt2ca0u foreign key (author_id) references authors (id)
+2024-02-13 20:28:27,196 DEBUG [JtaPlatformInitiator] No JtaPlatform was specified, checking resolver
+2024-02-13 20:28:27,197 DEBUG [JtaPlatformResolverInitiator] No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2024-02-13 20:28:27,199 DEBUG [StandardJtaPlatformResolver] Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-13 20:28:27,199 INFO [JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-13 20:28:27,199 DEBUG [NamedQueryRepository] Checking 0 named HQL queries
+2024-02-13 20:28:27,199 DEBUG [NamedQueryRepository] Checking 0 named SQL queries
+2024-02-13 20:28:27,203 DEBUG [SessionFactoryServiceRegistryImpl] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2024-02-13 20:28:27,207 DEBUG [SessionFactoryRegistry] Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@7fe8c7db
+2024-02-13 20:28:27,208 DEBUG [SessionFactoryRegistry] Registering SessionFactory: b564c016-b3a3-4c55-af51-5d7df7d4180c (<unnamed>)
+2024-02-13 20:28:27,208 DEBUG [SessionFactoryRegistry] Not binding SessionFactory to JNDI, no JNDI name configured
+2024-02-13 20:28:27,262 DEBUG [StatisticsInitiator] Statistics initialized [enabled=false]
+2024-02-13 20:28:27,268 DEBUG [TransactionImpl] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-02-13 20:28:27,268 DEBUG [TransactionImpl] begin
+2024-02-13 20:28:27,281 DEBUG [ActionQueue] Executing identity-insert immediately
+2024-02-13 20:28:27,282 DEBUG [SQL] insert into authors (email, name) values (?, ?)
+2024-02-13 20:28:27,288 DEBUG [IdentifierGeneratorHelper] Natively generated identity: 13
+2024-02-13 20:28:27,288 DEBUG [ResourceRegistryStandardImpl] HHH000387: ResultSet's statement was not registered
+2024-02-13 20:28:27,291 DEBUG [TransactionImpl] committing
+2024-02-13 20:28:27,292 DEBUG [AbstractFlushingEventListener] Processing flush-time cascades
+2024-02-13 20:28:27,292 DEBUG [AbstractFlushingEventListener] Dirty checking collections
+2024-02-13 20:28:27,294 DEBUG [AbstractFlushingEventListener] Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2024-02-13 20:28:27,294 DEBUG [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2024-02-13 20:28:27,294 DEBUG [EntityPrinter] Listing entities:
+2024-02-13 20:28:27,294 DEBUG [EntityPrinter] com.hibernate.entity.Author{name=Name 1, id=13, posts=null, email=Email 1}
+2024-02-13 20:28:27,298 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,298 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,300 DEBUG [Loader] Static select for action ACTION_REFRESH on entity com.hibernate.entity.Author: select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.name as name3_0_0_ from authors author0_ where author0_.id=?
+2024-02-13 20:28:27,300 DEBUG [Loader] Loading entity: [com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,300 DEBUG [SQL] select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.name as name3_0_0_ from authors author0_ where author0_.id=?
+2024-02-13 20:28:27,312 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:27,312 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,316 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,317 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:27,317 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,317 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:27,317 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,317 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,317 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,325 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,326 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,326 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,329 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,333 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,333 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,333 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,333 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,333 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,334 DEBUG [Loader] Done entity load
+2024-02-13 20:28:27,334 DEBUG [TransactionImpl] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-02-13 20:28:27,334 DEBUG [TransactionImpl] begin
+2024-02-13 20:28:27,336 DEBUG [ActionQueue] Executing identity-insert immediately
+2024-02-13 20:28:27,336 DEBUG [SQL] insert into posts (author_id, content, updated) values (?, ?, ?)
+2024-02-13 20:28:27,342 DEBUG [IdentifierGeneratorHelper] Natively generated identity: 25
+2024-02-13 20:28:27,343 DEBUG [ResourceRegistryStandardImpl] HHH000387: ResultSet's statement was not registered
+2024-02-13 20:28:27,343 DEBUG [TransactionImpl] committing
+2024-02-13 20:28:27,343 DEBUG [AbstractFlushingEventListener] Processing flush-time cascades
+2024-02-13 20:28:27,343 DEBUG [AbstractFlushingEventListener] Dirty checking collections
+2024-02-13 20:28:27,343 DEBUG [AbstractFlushingEventListener] Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2024-02-13 20:28:27,343 DEBUG [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2024-02-13 20:28:27,343 DEBUG [EntityPrinter] Listing entities:
+2024-02-13 20:28:27,343 DEBUG [EntityPrinter] com.hibernate.entity.Post{author=com.hibernate.entity.Author#13, id=25, updated=Tue Feb 13 20:28:27 CET 2024, content=Content 1}
+2024-02-13 20:28:27,344 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,344 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,344 DEBUG [Loader] Static select for action ACTION_REFRESH on entity com.hibernate.entity.Post: select post0_.id as id1_1_0_, post0_.author_id as author_i4_1_0_, post0_.content as content2_1_0_, post0_.updated as updated3_1_0_ from posts post0_ where post0_.id=?
+2024-02-13 20:28:27,344 DEBUG [Loader] Loading entity: [com.hibernate.entity.Post#25]
+2024-02-13 20:28:27,344 DEBUG [SQL] select post0_.id as id1_1_0_, post0_.author_id as author_i4_1_0_, post0_.content as content2_1_0_, post0_.updated as updated3_1_0_ from posts post0_ where post0_.id=?
+2024-02-13 20:28:27,347 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:27,347 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Post#25]
+2024-02-13 20:28:27,351 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#25]
+2024-02-13 20:28:27,351 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 13
+2024-02-13 20:28:27,351 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,355 DEBUG [Loader] Loading entity: [com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,355 DEBUG [SQL] select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.name as name3_0_0_ from authors author0_ where author0_.id=?
+2024-02-13 20:28:27,356 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:27,356 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,356 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,356 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:27,356 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,356 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:27,356 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,356 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,357 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,357 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,357 DEBUG [Loader] Done entity load
+2024-02-13 20:28:27,357 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,357 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,357 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:27,357 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,357 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#25]
+2024-02-13 20:28:27,357 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,357 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,358 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,360 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,360 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,360 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,360 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,360 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,360 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,360 DEBUG [Loader] Done entity load
+2024-02-13 20:28:27,361 DEBUG [TransactionImpl] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-02-13 20:28:27,361 DEBUG [TransactionImpl] begin
+2024-02-13 20:28:27,362 DEBUG [ActionQueue] Executing identity-insert immediately
+2024-02-13 20:28:27,362 DEBUG [SQL] insert into posts (author_id, content, updated) values (?, ?, ?)
+2024-02-13 20:28:27,365 DEBUG [IdentifierGeneratorHelper] Natively generated identity: 26
+2024-02-13 20:28:27,365 DEBUG [ResourceRegistryStandardImpl] HHH000387: ResultSet's statement was not registered
+2024-02-13 20:28:27,365 DEBUG [TransactionImpl] committing
+2024-02-13 20:28:27,365 DEBUG [AbstractFlushingEventListener] Processing flush-time cascades
+2024-02-13 20:28:27,365 DEBUG [AbstractFlushingEventListener] Dirty checking collections
+2024-02-13 20:28:27,365 DEBUG [AbstractFlushingEventListener] Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2024-02-13 20:28:27,365 DEBUG [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2024-02-13 20:28:27,365 DEBUG [EntityPrinter] Listing entities:
+2024-02-13 20:28:27,365 DEBUG [EntityPrinter] com.hibernate.entity.Post{author=com.hibernate.entity.Author#13, id=26, updated=Tue Feb 13 20:28:27 CET 2024, content=Content 2}
+2024-02-13 20:28:27,365 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,366 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,366 DEBUG [Loader] Loading entity: [com.hibernate.entity.Post#26]
+2024-02-13 20:28:27,366 DEBUG [SQL] select post0_.id as id1_1_0_, post0_.author_id as author_i4_1_0_, post0_.content as content2_1_0_, post0_.updated as updated3_1_0_ from posts post0_ where post0_.id=?
+2024-02-13 20:28:27,367 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:27,367 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Post#26]
+2024-02-13 20:28:27,367 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#26]
+2024-02-13 20:28:27,367 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 13
+2024-02-13 20:28:27,367 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,367 DEBUG [Loader] Loading entity: [com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,367 DEBUG [SQL] select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.name as name3_0_0_ from authors author0_ where author0_.id=?
+2024-02-13 20:28:27,368 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:27,368 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,369 DEBUG [Loader] Done entity load
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,369 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#26]
+2024-02-13 20:28:27,369 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,369 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,370 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,371 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,371 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,371 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#25]
+2024-02-13 20:28:27,371 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 13
+2024-02-13 20:28:27,371 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,371 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,371 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,371 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:27,371 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,371 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#25]
+2024-02-13 20:28:27,371 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,371 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,371 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,371 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,371 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,373 DEBUG [Loader] Done entity load
+2024-02-13 20:28:27,373 DEBUG [TransactionImpl] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-02-13 20:28:27,373 DEBUG [TransactionImpl] begin
+2024-02-13 20:28:27,374 DEBUG [ActionQueue] Executing identity-insert immediately
+2024-02-13 20:28:27,374 DEBUG [SQL] insert into authors (email, name) values (?, ?)
+2024-02-13 20:28:27,376 DEBUG [IdentifierGeneratorHelper] Natively generated identity: 14
+2024-02-13 20:28:27,376 DEBUG [ResourceRegistryStandardImpl] HHH000387: ResultSet's statement was not registered
+2024-02-13 20:28:27,376 DEBUG [TransactionImpl] committing
+2024-02-13 20:28:27,376 DEBUG [AbstractFlushingEventListener] Processing flush-time cascades
+2024-02-13 20:28:27,376 DEBUG [AbstractFlushingEventListener] Dirty checking collections
+2024-02-13 20:28:27,376 DEBUG [AbstractFlushingEventListener] Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2024-02-13 20:28:27,376 DEBUG [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2024-02-13 20:28:27,376 DEBUG [EntityPrinter] Listing entities:
+2024-02-13 20:28:27,376 DEBUG [EntityPrinter] com.hibernate.entity.Author{name=Name 3, id=14, posts=null, email=Email 3}
+2024-02-13 20:28:27,377 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,377 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,377 DEBUG [Loader] Loading entity: [com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,377 DEBUG [SQL] select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.name as name3_0_0_ from authors author0_ where author0_.id=?
+2024-02-13 20:28:27,378 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:27,378 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,379 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,379 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 3
+2024-02-13 20:28:27,379 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,379 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 3
+2024-02-13 20:28:27,379 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,379 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,379 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,379 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,379 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,379 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,380 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,380 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,380 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,380 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,380 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,380 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,380 DEBUG [Loader] Done entity load
+2024-02-13 20:28:27,380 DEBUG [TransactionImpl] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-02-13 20:28:27,380 DEBUG [TransactionImpl] begin
+2024-02-13 20:28:27,381 DEBUG [ActionQueue] Executing identity-insert immediately
+2024-02-13 20:28:27,381 DEBUG [SQL] insert into posts (author_id, content, updated) values (?, ?, ?)
+2024-02-13 20:28:27,384 DEBUG [IdentifierGeneratorHelper] Natively generated identity: 27
+2024-02-13 20:28:27,384 DEBUG [ResourceRegistryStandardImpl] HHH000387: ResultSet's statement was not registered
+2024-02-13 20:28:27,384 DEBUG [TransactionImpl] committing
+2024-02-13 20:28:27,384 DEBUG [AbstractFlushingEventListener] Processing flush-time cascades
+2024-02-13 20:28:27,384 DEBUG [AbstractFlushingEventListener] Dirty checking collections
+2024-02-13 20:28:27,384 DEBUG [AbstractFlushingEventListener] Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2024-02-13 20:28:27,384 DEBUG [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2024-02-13 20:28:27,384 DEBUG [EntityPrinter] Listing entities:
+2024-02-13 20:28:27,384 DEBUG [EntityPrinter] com.hibernate.entity.Post{author=com.hibernate.entity.Author#14, id=27, updated=Tue Feb 13 20:28:27 CET 2024, content=Content 1}
+2024-02-13 20:28:27,384 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,385 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,385 DEBUG [Loader] Loading entity: [com.hibernate.entity.Post#27]
+2024-02-13 20:28:27,385 DEBUG [SQL] select post0_.id as id1_1_0_, post0_.author_id as author_i4_1_0_, post0_.content as content2_1_0_, post0_.updated as updated3_1_0_ from posts post0_ where post0_.id=?
+2024-02-13 20:28:27,386 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:27,386 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Post#27]
+2024-02-13 20:28:27,386 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#27]
+2024-02-13 20:28:27,386 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 14
+2024-02-13 20:28:27,386 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,386 DEBUG [Loader] Loading entity: [com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,386 DEBUG [SQL] select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.name as name3_0_0_ from authors author0_ where author0_.id=?
+2024-02-13 20:28:27,387 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:27,387 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,387 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,387 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 3
+2024-02-13 20:28:27,387 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,387 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 3
+2024-02-13 20:28:27,387 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,387 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,387 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,387 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,388 DEBUG [Loader] Done entity load
+2024-02-13 20:28:27,388 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,388 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,388 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:27,388 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,388 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#27]
+2024-02-13 20:28:27,388 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,388 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,389 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,389 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,389 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,389 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,389 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,389 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,389 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,390 DEBUG [Loader] Done entity load
+2024-02-13 20:28:27,390 DEBUG [TransactionImpl] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-02-13 20:28:27,390 DEBUG [TransactionImpl] begin
+2024-02-13 20:28:27,391 DEBUG [ActionQueue] Executing identity-insert immediately
+2024-02-13 20:28:27,391 DEBUG [SQL] insert into posts (author_id, content, updated) values (?, ?, ?)
+2024-02-13 20:28:27,393 DEBUG [IdentifierGeneratorHelper] Natively generated identity: 28
+2024-02-13 20:28:27,393 DEBUG [ResourceRegistryStandardImpl] HHH000387: ResultSet's statement was not registered
+2024-02-13 20:28:27,393 DEBUG [TransactionImpl] committing
+2024-02-13 20:28:27,393 DEBUG [AbstractFlushingEventListener] Processing flush-time cascades
+2024-02-13 20:28:27,393 DEBUG [AbstractFlushingEventListener] Dirty checking collections
+2024-02-13 20:28:27,393 DEBUG [AbstractFlushingEventListener] Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2024-02-13 20:28:27,393 DEBUG [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2024-02-13 20:28:27,393 DEBUG [EntityPrinter] Listing entities:
+2024-02-13 20:28:27,393 DEBUG [EntityPrinter] com.hibernate.entity.Post{author=com.hibernate.entity.Author#14, id=28, updated=Tue Feb 13 20:28:27 CET 2024, content=Content 2}
+2024-02-13 20:28:27,393 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,394 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,395 DEBUG [Loader] Loading entity: [com.hibernate.entity.Post#28]
+2024-02-13 20:28:27,395 DEBUG [SQL] select post0_.id as id1_1_0_, post0_.author_id as author_i4_1_0_, post0_.content as content2_1_0_, post0_.updated as updated3_1_0_ from posts post0_ where post0_.id=?
+2024-02-13 20:28:27,396 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:27,396 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Post#28]
+2024-02-13 20:28:27,396 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#28]
+2024-02-13 20:28:27,397 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 14
+2024-02-13 20:28:27,397 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,397 DEBUG [Loader] Loading entity: [com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,397 DEBUG [SQL] select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.name as name3_0_0_ from authors author0_ where author0_.id=?
+2024-02-13 20:28:27,397 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:27,398 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 3
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 3
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,398 DEBUG [Loader] Done entity load
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,398 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#28]
+2024-02-13 20:28:27,399 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,399 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,400 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,401 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,401 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,401 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#27]
+2024-02-13 20:28:27,401 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 14
+2024-02-13 20:28:27,401 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,401 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,401 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,401 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:27,401 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,401 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#27]
+2024-02-13 20:28:27,401 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,401 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,401 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,401 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,401 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,402 DEBUG [Loader] Done entity load
+2024-02-13 20:28:27,420 DEBUG [CriteriaQueryImpl] Rendered criteria query -> select generatedAlias0 from Author as generatedAlias0
+2024-02-13 20:28:27,429 DEBUG [QueryTranslatorFactoryInitiator] QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@53ea380b
+2024-02-13 20:28:27,445 DEBUG [QueryTranslatorImpl] parse() - HQL: select generatedAlias0 from com.hibernate.entity.Author as generatedAlias0
+2024-02-13 20:28:27,448 DEBUG [ErrorTracker] throwQueryException() : no errors
+2024-02-13 20:28:27,453 DEBUG [QueryTranslatorImpl] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  \-[IDENT] Node: 'hibernate'
+       |     |  |  \-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'Author'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2024-02-13 20:28:27,466 DEBUG [HqlSqlBaseWalker] select << begin [level=1, statement=select]
+2024-02-13 20:28:27,475 DEBUG [FromElement] FromClause{level=1} : com.hibernate.entity.Author (generatedAlias0) -> author0_
+2024-02-13 20:28:27,475 DEBUG [FromReferenceNode] Resolved : generatedAlias0 -> author0_.id
+2024-02-13 20:28:27,476 DEBUG [HqlSqlBaseWalker] select : finishing up [level=1, statement=select]
+2024-02-13 20:28:27,476 DEBUG [HqlSqlWalker] processQuery() :  ( SELECT ( {select clause} author0_.id ) ( FromClause{level=1} authors author0_ ) )
+2024-02-13 20:28:27,478 DEBUG [JoinProcessor] Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Author): [authors]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.hibernate.entity.Author)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2024-02-13 20:28:27,483 DEBUG [JoinProcessor] Using FROM fragment [authors author0_]
+2024-02-13 20:28:27,483 DEBUG [HqlSqlBaseWalker] select >> end [level=1, statement=select]
+2024-02-13 20:28:27,483 DEBUG [QueryTranslatorImpl] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (authors)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'author0_.id as id1_0_' {alias=generatedAlias0, className=com.hibernate.entity.Author, tableAlias=author0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'author0_.email as email2_0_, author0_.name as name3_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[author0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'authors author0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=authors,tableAlias=author0_,origin=null,columns={,className=com.hibernate.entity.Author}}
+
+2024-02-13 20:28:27,483 DEBUG [ErrorTracker] throwQueryException() : no errors
+2024-02-13 20:28:27,483 DEBUG [QueryTranslatorImpl] HQL: select generatedAlias0 from com.hibernate.entity.Author as generatedAlias0
+2024-02-13 20:28:27,483 DEBUG [QueryTranslatorImpl] SQL: select author0_.id as id1_0_, author0_.email as email2_0_, author0_.name as name3_0_ from authors author0_
+2024-02-13 20:28:27,483 DEBUG [ErrorTracker] throwQueryException() : no errors
+2024-02-13 20:28:27,492 DEBUG [SQL] select author0_.id as id1_0_, author0_.email as email2_0_, author0_.name as name3_0_ from authors author0_
+2024-02-13 20:28:27,493 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:27,494 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#1]
+2024-02-13 20:28:27,494 DEBUG [Loader] Result set row: 1
+2024-02-13 20:28:27,494 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#3]
+2024-02-13 20:28:27,494 DEBUG [Loader] Result set row: 2
+2024-02-13 20:28:27,494 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#5]
+2024-02-13 20:28:27,494 DEBUG [Loader] Result set row: 3
+2024-02-13 20:28:27,494 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#7]
+2024-02-13 20:28:27,494 DEBUG [Loader] Result set row: 4
+2024-02-13 20:28:27,494 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#8]
+2024-02-13 20:28:27,494 DEBUG [Loader] Result set row: 5
+2024-02-13 20:28:27,494 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#9]
+2024-02-13 20:28:27,494 DEBUG [Loader] Result set row: 6
+2024-02-13 20:28:27,494 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#11]
+2024-02-13 20:28:27,494 DEBUG [Loader] Result set row: 7
+2024-02-13 20:28:27,494 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,494 DEBUG [Loader] Result set row: 8
+2024-02-13 20:28:27,494 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#1]
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#1]
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#3]
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#3]
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#5]
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#5]
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#7]
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,495 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#7]
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#8]
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 3
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 3
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#8]
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#9]
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#9]
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#11]
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#11]
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#13]
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 3
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 3
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:27,496 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,497 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#14]
+2024-02-13 20:28:27,497 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,497 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,498 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,498 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,498 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#27]
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 14
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#27]
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#28]
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 14
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,498 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#28]
+2024-02-13 20:28:27,499 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,499 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:27,499 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,499 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,499 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,499 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,499 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,500 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,500 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,501 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#25]
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 13
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#25]
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#26]
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 13
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,501 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#26]
+2024-02-13 20:28:27,501 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,501 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:27,501 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,501 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,501 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,502 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:27,502 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,503 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:27,503 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:27,503 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:27,503 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#21]
+2024-02-13 20:28:27,503 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 11
+2024-02-13 20:28:27,503 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,503 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,503 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,503 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:26:51.0
+2024-02-13 20:28:27,503 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,504 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#21]
+2024-02-13 20:28:27,504 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#22]
+2024-02-13 20:28:27,504 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 11
+2024-02-13 20:28:27,504 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,504 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:27,504 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,504 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:26:51.0
+2024-02-13 20:28:27,504 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,504 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#22]
+2024-02-13 20:28:27,504 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,504 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:27,504 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,504 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,504 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,504 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#9]
+2024-02-13 20:28:27,504 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,506 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#9]
+2024-02-13 20:28:27,506 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#9]
+2024-02-13 20:28:27,507 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#9]
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#17]
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 9
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:24:21.0
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#17]
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#18]
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 9
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:24:21.0
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,507 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#18]
+2024-02-13 20:28:27,507 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,507 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#9]
+2024-02-13 20:28:27,507 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,507 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,507 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,508 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#8]
+2024-02-13 20:28:27,508 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,509 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#8]
+2024-02-13 20:28:27,509 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#8]
+2024-02-13 20:28:27,510 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#8]
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#15]
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 8
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:27:57.0
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#15]
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#16]
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 8
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:27:57.0
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,510 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#16]
+2024-02-13 20:28:27,510 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,510 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#8]
+2024-02-13 20:28:27,510 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,510 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,510 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,511 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#7]
+2024-02-13 20:28:27,511 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,512 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#7]
+2024-02-13 20:28:27,512 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#7]
+2024-02-13 20:28:27,512 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#7]
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#13]
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 7
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:27:56.0
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#13]
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#14]
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 7
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,512 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:27,513 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,513 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:27:57.0
+2024-02-13 20:28:27,513 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,513 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#14]
+2024-02-13 20:28:27,513 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,513 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#7]
+2024-02-13 20:28:27,513 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,513 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,513 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,513 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#5]
+2024-02-13 20:28:27,513 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,514 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#5]
+2024-02-13 20:28:27,515 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#5]
+2024-02-13 20:28:27,515 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#5]
+2024-02-13 20:28:27,515 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#9]
+2024-02-13 20:28:27,515 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 5
+2024-02-13 20:28:27,515 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,515 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,515 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,515 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:14:16.0
+2024-02-13 20:28:27,516 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,516 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#9]
+2024-02-13 20:28:27,516 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#10]
+2024-02-13 20:28:27,516 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 5
+2024-02-13 20:28:27,516 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,516 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:27,516 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,516 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:14:16.0
+2024-02-13 20:28:27,516 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,516 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#10]
+2024-02-13 20:28:27,516 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,516 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#5]
+2024-02-13 20:28:27,516 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,516 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,516 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,516 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#3]
+2024-02-13 20:28:27,516 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,519 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#3]
+2024-02-13 20:28:27,519 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#3]
+2024-02-13 20:28:27,519 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#3]
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#5]
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 3
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:13:08.0
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#5]
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#6]
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 3
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:13:08.0
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,519 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#6]
+2024-02-13 20:28:27,520 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,520 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#3]
+2024-02-13 20:28:27,520 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,520 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,520 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,520 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#1]
+2024-02-13 20:28:27,520 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:27,521 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#1]
+2024-02-13 20:28:27,521 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#1]
+2024-02-13 20:28:27,521 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#1]
+2024-02-13 20:28:27,521 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#1]
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 1
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 18:41:17.0
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#1]
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#2]
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 1
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 18:41:17.0
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:27,522 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#2]
+2024-02-13 20:28:27,522 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,522 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#1]
+2024-02-13 20:28:27,522 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:27,522 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:27,522 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:27,525 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,525 DEBUG [SQL] select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.name as name3_0_0_, posts1_.author_id as author_i4_1_1_, posts1_.id as id1_1_1_, posts1_.id as id1_1_2_, posts1_.author_id as author_i4_1_2_, posts1_.content as content2_1_2_, posts1_.updated as updated3_1_2_ from authors author0_ left outer join posts posts1_ on author0_.id=posts1_.author_id where author0_.id=?
+2024-02-13 20:28:33,528 DEBUG [EntityReferenceInitializerImpl] On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2024-02-13 20:28:33,528 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,528 DEBUG [EntityReferenceInitializerImpl] On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2024-02-13 20:28:33,528 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,528 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#11]
+2024-02-13 20:28:33,528 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:33,528 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,528 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:33,528 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,528 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:33,528 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,528 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#11]
+2024-02-13 20:28:33,528 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#21]
+2024-02-13 20:28:33,528 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 11
+2024-02-13 20:28:33,528 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:26:51.0
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#21]
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#22]
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 11
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:26:51.0
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,530 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#22]
+2024-02-13 20:28:33,530 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,530 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,530 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,531 DEBUG [AbstractLoadPlanBasedEntityLoader] Done entity load : com.hibernate.entity.Author#11
+2024-02-13 20:28:33,531 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,532 DEBUG [TransactionImpl] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-02-13 20:28:33,532 DEBUG [TransactionImpl] begin
+2024-02-13 20:28:33,536 DEBUG [TransactionImpl] committing
+2024-02-13 20:28:33,536 DEBUG [AbstractFlushingEventListener] Processing flush-time cascades
+2024-02-13 20:28:33,537 DEBUG [AbstractFlushingEventListener] Dirty checking collections
+2024-02-13 20:28:33,538 DEBUG [AbstractFlushingEventListener] Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects
+2024-02-13 20:28:33,538 DEBUG [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2024-02-13 20:28:33,538 DEBUG [EntityPrinter] Listing entities:
+2024-02-13 20:28:33,538 DEBUG [EntityPrinter] com.hibernate.entity.Post{author=com.hibernate.entity.Author#11, id=21, updated=Tue Feb 13 20:28:33 CET 2024, content=Updated content}
+2024-02-13 20:28:33,546 DEBUG [SQL] update posts set author_id=?, content=?, updated=? where id=?
+2024-02-13 20:28:33,555 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,556 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,556 DEBUG [Loader] Loading entity: [com.hibernate.entity.Post#21]
+2024-02-13 20:28:33,556 DEBUG [SQL] select post0_.id as id1_1_0_, post0_.author_id as author_i4_1_0_, post0_.content as content2_1_0_, post0_.updated as updated3_1_0_ from posts post0_ where post0_.id=?
+2024-02-13 20:28:33,558 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:33,558 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Post#21]
+2024-02-13 20:28:33,558 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#21]
+2024-02-13 20:28:33,558 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 11
+2024-02-13 20:28:33,558 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,558 DEBUG [Loader] Loading entity: [com.hibernate.entity.Author#11]
+2024-02-13 20:28:33,558 DEBUG [SQL] select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.name as name3_0_0_ from authors author0_ where author0_.id=?
+2024-02-13 20:28:33,560 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:33,560 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#11]
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#11]
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#11]
+2024-02-13 20:28:33,561 DEBUG [Loader] Done entity load
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Updated content
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:34.0
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,561 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#21]
+2024-02-13 20:28:33,562 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,562 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:33,563 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,563 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,564 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,564 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#22]
+2024-02-13 20:28:33,564 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 11
+2024-02-13 20:28:33,564 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,564 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:33,564 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,564 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:26:51.0
+2024-02-13 20:28:33,564 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,564 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#22]
+2024-02-13 20:28:33,564 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,564 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,564 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,564 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:33,564 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,565 DEBUG [Loader] Done entity load
+2024-02-13 20:28:33,565 DEBUG [JdbcCoordinatorImpl] HHH000420: Closing un-released batch
+2024-02-13 20:28:33,565 DEBUG [TransactionImpl] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-02-13 20:28:33,566 DEBUG [TransactionImpl] begin
+2024-02-13 20:28:33,567 DEBUG [TransactionImpl] committing
+2024-02-13 20:28:33,567 DEBUG [AbstractFlushingEventListener] Processing flush-time cascades
+2024-02-13 20:28:33,567 DEBUG [AbstractFlushingEventListener] Dirty checking collections
+2024-02-13 20:28:33,569 DEBUG [Collections] Collection found: [com.hibernate.entity.Author.posts#11], was: [com.hibernate.entity.Author.posts#11] (initialized)
+2024-02-13 20:28:33,569 DEBUG [AbstractFlushingEventListener] Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects
+2024-02-13 20:28:33,569 DEBUG [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+2024-02-13 20:28:33,569 DEBUG [EntityPrinter] Listing entities:
+2024-02-13 20:28:33,569 DEBUG [EntityPrinter] com.hibernate.entity.Author{name=Updated name, id=11, posts=[com.hibernate.entity.Post#21, com.hibernate.entity.Post#22], email=Email 1}
+2024-02-13 20:28:33,570 DEBUG [SQL] update authors set email=?, name=? where id=?
+2024-02-13 20:28:33,574 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,574 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,574 DEBUG [EvictVisitor] Evicting collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,574 DEBUG [Loader] Loading entity: [com.hibernate.entity.Author#11]
+2024-02-13 20:28:33,575 DEBUG [SQL] select author0_.id as id1_0_0_, author0_.email as email2_0_0_, author0_.name as name3_0_0_ from authors author0_ where author0_.id=?
+2024-02-13 20:28:33,576 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:33,576 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#11]
+2024-02-13 20:28:33,576 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#11]
+2024-02-13 20:28:33,576 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:33,576 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,576 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Updated name
+2024-02-13 20:28:33,576 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,576 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:33,576 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,576 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#11]
+2024-02-13 20:28:33,577 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,577 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:33,577 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,578 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,578 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#21]
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 11
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Updated content
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:34.0
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#21]
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#22]
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 11
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:26:51.0
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,578 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#22]
+2024-02-13 20:28:33,578 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,578 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,578 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,578 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:33,578 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,579 DEBUG [Loader] Done entity load
+2024-02-13 20:28:33,579 DEBUG [JdbcCoordinatorImpl] HHH000420: Closing un-released batch
+2024-02-13 20:28:33,579 DEBUG [TransactionImpl] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-02-13 20:28:33,579 DEBUG [TransactionImpl] begin
+2024-02-13 20:28:33,584 DEBUG [TransactionImpl] committing
+2024-02-13 20:28:33,584 DEBUG [AbstractFlushingEventListener] Processing flush-time cascades
+2024-02-13 20:28:33,584 DEBUG [AbstractFlushingEventListener] Dirty checking collections
+2024-02-13 20:28:33,584 DEBUG [Collections] Collection dereferenced: [com.hibernate.entity.Author.posts#11]
+2024-02-13 20:28:33,584 DEBUG [AbstractFlushingEventListener] Flushed: 0 insertions, 0 updates, 3 deletions to 3 objects
+2024-02-13 20:28:33,584 DEBUG [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 1 removals to 1 collections
+2024-02-13 20:28:33,584 DEBUG [EntityPrinter] Listing entities:
+2024-02-13 20:28:33,584 DEBUG [EntityPrinter] com.hibernate.entity.Author{name=Updated name, id=11, posts=[com.hibernate.entity.Post#21, com.hibernate.entity.Post#22], email=Email 1}
+2024-02-13 20:28:33,584 DEBUG [EntityPrinter] com.hibernate.entity.Post{author=com.hibernate.entity.Author#11, id=21, updated=2024-02-13 20:28:34.0, content=Updated content}
+2024-02-13 20:28:33,584 DEBUG [EntityPrinter] com.hibernate.entity.Post{author=com.hibernate.entity.Author#11, id=22, updated=2024-02-13 20:26:51.0, content=Content 2}
+2024-02-13 20:28:33,586 DEBUG [SQL] delete from posts where id=?
+2024-02-13 20:28:33,590 DEBUG [SQL] delete from posts where id=?
+2024-02-13 20:28:33,592 DEBUG [SQL] delete from authors where id=?
+2024-02-13 20:28:33,595 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,595 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,595 DEBUG [JdbcCoordinatorImpl] HHH000420: Closing un-released batch
+2024-02-13 20:28:33,595 DEBUG [CriteriaQueryImpl] Rendered criteria query -> select generatedAlias0 from Author as generatedAlias0
+2024-02-13 20:28:33,596 DEBUG [SQL] select author0_.id as id1_0_, author0_.email as email2_0_, author0_.name as name3_0_ from authors author0_
+2024-02-13 20:28:33,597 DEBUG [Loader] Result set row: 0
+2024-02-13 20:28:33,597 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#1]
+2024-02-13 20:28:33,597 DEBUG [Loader] Result set row: 1
+2024-02-13 20:28:33,597 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#3]
+2024-02-13 20:28:33,597 DEBUG [Loader] Result set row: 2
+2024-02-13 20:28:33,597 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#5]
+2024-02-13 20:28:33,597 DEBUG [Loader] Result set row: 3
+2024-02-13 20:28:33,597 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#7]
+2024-02-13 20:28:33,597 DEBUG [Loader] Result set row: 4
+2024-02-13 20:28:33,597 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#8]
+2024-02-13 20:28:33,597 DEBUG [Loader] Result set row: 5
+2024-02-13 20:28:33,597 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#9]
+2024-02-13 20:28:33,597 DEBUG [Loader] Result set row: 6
+2024-02-13 20:28:33,597 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#13]
+2024-02-13 20:28:33,597 DEBUG [Loader] Result set row: 7
+2024-02-13 20:28:33,597 DEBUG [Loader] Result row: EntityKey[com.hibernate.entity.Author#14]
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#1]
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#1]
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#3]
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#3]
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#5]
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#5]
+2024-02-13 20:28:33,597 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#7]
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#7]
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#8]
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 3
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 3
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#8]
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#9]
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#9]
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#13]
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 1
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 1
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#13]
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Author#14]
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `email` : value = Email 3
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`email`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `name` : value = Name 3
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`name`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Processing attribute `posts` : value = NOT NULL COLLECTION
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Attribute (`posts`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,599 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Author#14]
+2024-02-13 20:28:33,599 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:33,599 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:33,600 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:33,600 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:33,601 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#27]
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 14
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#27]
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#28]
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 14
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,601 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#28]
+2024-02-13 20:28:33,601 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,601 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#14]
+2024-02-13 20:28:33,601 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,601 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:33,601 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,603 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:33,603 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:33,604 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:33,604 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:33,604 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:33,604 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#25]
+2024-02-13 20:28:33,604 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 13
+2024-02-13 20:28:33,604 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,604 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:33,604 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,604 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:33,604 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,604 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#25]
+2024-02-13 20:28:33,604 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#26]
+2024-02-13 20:28:33,604 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 13
+2024-02-13 20:28:33,605 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,605 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:33,605 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,605 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:28:27.0
+2024-02-13 20:28:33,605 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,605 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#26]
+2024-02-13 20:28:33,605 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,605 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#13]
+2024-02-13 20:28:33,605 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,605 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:33,605 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,605 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#9]
+2024-02-13 20:28:33,606 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:33,607 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#9]
+2024-02-13 20:28:33,607 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#9]
+2024-02-13 20:28:33,607 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#9]
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#17]
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 9
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:24:21.0
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#17]
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#18]
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 9
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 20:24:21.0
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,608 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#18]
+2024-02-13 20:28:33,608 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,608 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#9]
+2024-02-13 20:28:33,608 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,608 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:33,608 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,609 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#8]
+2024-02-13 20:28:33,609 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:33,611 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#8]
+2024-02-13 20:28:33,611 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#8]
+2024-02-13 20:28:33,611 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#8]
+2024-02-13 20:28:33,611 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#15]
+2024-02-13 20:28:33,611 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 8
+2024-02-13 20:28:33,611 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,611 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:33,611 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,612 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:27:57.0
+2024-02-13 20:28:33,612 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,612 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#15]
+2024-02-13 20:28:33,612 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#16]
+2024-02-13 20:28:33,612 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 8
+2024-02-13 20:28:33,612 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,612 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:33,612 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,612 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:27:57.0
+2024-02-13 20:28:33,612 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,612 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#16]
+2024-02-13 20:28:33,612 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,612 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#8]
+2024-02-13 20:28:33,612 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,612 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:33,612 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,612 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#7]
+2024-02-13 20:28:33,612 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:33,614 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#7]
+2024-02-13 20:28:33,614 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#7]
+2024-02-13 20:28:33,614 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#7]
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#13]
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 7
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:27:56.0
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#13]
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#14]
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 7
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:27:57.0
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,614 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#14]
+2024-02-13 20:28:33,614 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,614 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#7]
+2024-02-13 20:28:33,614 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,614 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:33,614 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,615 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#5]
+2024-02-13 20:28:33,615 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:33,616 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#5]
+2024-02-13 20:28:33,617 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#5]
+2024-02-13 20:28:33,617 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#5]
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#9]
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 5
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:14:16.0
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#9]
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#10]
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 5
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:14:16.0
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,617 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#10]
+2024-02-13 20:28:33,617 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,617 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#5]
+2024-02-13 20:28:33,617 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,618 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:33,618 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,618 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#3]
+2024-02-13 20:28:33,618 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:33,619 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#3]
+2024-02-13 20:28:33,620 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#3]
+2024-02-13 20:28:33,620 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#3]
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#5]
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 3
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:13:08.0
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#5]
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#6]
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 3
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 19:13:08.0
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,620 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#6]
+2024-02-13 20:28:33,620 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,620 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#3]
+2024-02-13 20:28:33,620 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,620 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:33,620 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,621 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Loading collection: [com.hibernate.entity.Author.posts#1]
+2024-02-13 20:28:33,621 DEBUG [SQL] select posts0_.author_id as author_i4_1_0_, posts0_.id as id1_1_0_, posts0_.id as id1_1_1_, posts0_.author_id as author_i4_1_1_, posts0_.content as content2_1_1_, posts0_.updated as updated3_1_1_ from posts posts0_ where posts0_.author_id=?
+2024-02-13 20:28:33,621 DEBUG [ResultSetProcessorImpl] Preparing collection initializer : [com.hibernate.entity.Author.posts#1]
+2024-02-13 20:28:33,622 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#1]
+2024-02-13 20:28:33,622 DEBUG [CollectionReferenceInitializerImpl] Found row of collection: [com.hibernate.entity.Author.posts#1]
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#1]
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 1
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 1
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 18:41:17.0
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#1]
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Resolving attributes for [com.hibernate.entity.Post#2]
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Processing attribute `author` : value = 1
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Attribute (`author`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Processing attribute `content` : value = Content 2
+2024-02-13 20:28:33,622 DEBUG [TwoPhaseLoad] Attribute (`content`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,623 DEBUG [TwoPhaseLoad] Processing attribute `updated` : value = 2024-02-13 18:41:17.0
+2024-02-13 20:28:33,623 DEBUG [TwoPhaseLoad] Attribute (`updated`)  - enhanced for lazy-loading? - false
+2024-02-13 20:28:33,623 DEBUG [TwoPhaseLoad] Done materializing entity [com.hibernate.entity.Post#2]
+2024-02-13 20:28:33,623 DEBUG [CollectionLoadContext] 1 collections were found in result set for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,623 DEBUG [CollectionLoadContext] Collection fully initialized: [com.hibernate.entity.Author.posts#1]
+2024-02-13 20:28:33,623 DEBUG [CollectionLoadContext] 1 collections initialized for role: com.hibernate.entity.Author.posts
+2024-02-13 20:28:33,623 DEBUG [AbstractLoadPlanBasedCollectionInitializer] Done loading collection
+2024-02-13 20:28:33,623 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction
+2024-02-13 20:28:33,623 DEBUG [LogicalConnectionManagedImpl] Initiating JDBC connection release from afterTransaction

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <File name="FileAppender" fileName="logs/hibernate.log" append="true">
+            <PatternLayout pattern="%d %p [%c{1}] %m%n" />
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="org.hibernate" level="debug" additivity="false">
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+        <Root level="error">
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>
