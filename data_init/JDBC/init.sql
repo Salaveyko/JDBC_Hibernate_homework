@@ -2,6 +2,8 @@ create database if not exists my_db;
 -- drop database my_db;
 use my_db;
 
+
+-- lessons 001_JDBC, 002_JDBC_DAO
 create table if not exists employees
 (
 	id int primary key auto_increment,

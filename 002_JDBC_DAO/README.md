@@ -1,5 +1,5 @@
 # DAO
-Database initialization files [here](data_init).  
+Database initialization files [here](../data_init/JDBC).  
 You also need to change the values of *URl*, *USER*, and *PASSWORD*
 [here](src/main/java/com/jdbc/factories/DAOFactoryJDBC.java) to connect to your database.
 # Tasks:

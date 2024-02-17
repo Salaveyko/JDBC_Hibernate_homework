@@ -60,7 +60,6 @@ public class AuthorRepository implements HibernateCRUD<Author> {
             session.beginTransaction();
             session.saveOrUpdate(author);
             session.getTransaction().commit();
-            session.refresh(author);
         }
     }
 

@@ -1,4 +1,5 @@
 # JPA and Hibernate
+Database initialization files [here](../data_init/Hibernate).  
 You should change a **values** in the [properties](src/main/resources/META-INF/persistence.xml)
 **named** *javax.persistence.jdbc.url*, *javax.persistence.jdbc.user*, and *javax.persistence.jdbc.password* 
 that you use to access to your database.

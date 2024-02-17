@@ -1,4 +1,5 @@
 # Hibernate intro  
+Database initialization files [here](../data_init/Hibernate).  
 Don`t forget to configure the connection to your database by changing the properties 
 *hibernate.connection.url*, *hibernate.connection.username*, and *hibernate.connection.password*
 [here](src/main/resources/hibernate.cfg.xml).

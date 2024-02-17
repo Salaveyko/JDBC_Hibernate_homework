@@ -1,5 +1,5 @@
 # JDBC intro
-Database initialization files [here](data_init).  
+Database initialization files [here](../data_init/JDBC).  
 You also need to change the values of *URl*, *LOGIN*, and *PASSWORD* 
 [here](src/main/java/com/jdbc/repository/EmployeeRepository.java) to connect to your database.
 #

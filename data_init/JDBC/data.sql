@@ -1,5 +1,6 @@
 use my_db;
 
+-- lessons 001_JDBC, 002_JDBC_DAO
 insert into employees
 (name, phone)
 values

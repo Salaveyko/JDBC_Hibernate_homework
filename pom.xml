@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.jdbc_hibernate</groupId>
+    <artifactId>JDBC_Hibernate</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>jdbc_hibernate-parent-pom</name>
+    <description>Parent Pom for the JDBC_Hibernate project</description>
+
+    <modules>
+        <module>001_JDBC</module>
+        <module>002_JDBC_DAO</module>
+        <module>003_HibernateIntro</module>
+        <module>004_JPA_Hibernate</module>
+        <module>005_Hibernate</module>
+        <module>006_Hibernate</module>
+    </modules>
+</project>

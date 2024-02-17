@@ -62,7 +62,6 @@ public class PostRepository implements HibernateCRUD<Post> {
             session.beginTransaction();
             session.saveOrUpdate(post);
             session.getTransaction().commit();
-            session.refresh(post);
         }
     }
 
